@@ -1,41 +1,291 @@
 <html>
   <head>
-    <link href="build/tailwindcss" rel="stylesheet" />
+    <link href="./css/tailwind.css" rel="stylesheet" />
   </head>
-  <body class="px-20">
+  <body class="px-28">
     <header>
-      <div class="flex justify-between items-center p-9 ">
+      <div class="flex justify-between items-center p-9">
         <div class="flex items-center gap-5">
           <img src="/img/logo.png" alt="Logo" />
           <p>lasles<b>VPN</b></p>
         </div>
 
-        <div class="flex items-center gap-5 ">
-          <a href="#" class="hover:text-red-600"> about </a>
-          <a href="#" class="hover:text-red-600"> Feature</a>
-          <a href="#" class="hover:text-red-600"> Pricing </a>
-          <a href="#" class="hover:text-red-600">Testimonial </a>
+        <div class="flex items-center gap-10">
+          <a href="#" class="hover:text-default"> About </a>
+          <a href="#" class="hover:text-default"> Feature</a>
+          <a href="#" class="hover:text-default"> Pricing </a>
+          <a href="#" class="hover:text-default">Testimonial </a>
         </div>
         <div class="flex items-center gap-10">
-          <a href="#">sign in </a>
-          <button class="text-red-600 rounded-md">
-            sign Up
+          <a href="#" class="hover:text-default"><b>Sign In</b> </a>
+          <button
+            class="ring-1 ring-default text-default px-10 py-2 rounded-3xl hover:bg-default hover:text-white hover:shadow-md"
+          >
+            <b>Sign Up</b>
           </button>
         </div>
       </div>
     </header>
     <div class="flex mt-9 p-10">
-      <div class="space-y-5 bg-slate-600 mt-16">
-        <h2 class="text-4xl"><b>Want anything to be <br>easy with LaslesVPN.</b></h2>
+      <div class="space-y-5 mt-16">
+        <h2 class="text-4xl">
+          <b>Want anything to be <br />easy with LaslesVPN.</b>
+        </h2>
         <p>
-          Provide a network for all your needs with ease and fun using <b>LaslesVPN</b><br>
+          Provide a network for all your needs with ease and fun using
+          <b>LaslesVPN</b><br />
           discover interesting features from us.
         </p>
-        <button class="bg-red-600 text-white p-4 w-60 rounded-xl">Get started</button>
+        <button
+          class="bg-default text-white p-4 w-60 rounded-xl hover:shadow-md"
+        >
+          Get started
+        </button>
       </div>
- <div>
-    <img src="img/pc.png">
- </div>
+      <div>
+        <img src="img/pc.png" />
+      </div>
     </div>
+    <div class="p-14 flex items-center justify-between shadow-md">
+      <div class="flex gap-6">
+        <img class=" " src="img/user.png" />
+        <div>
+          <h2 class="text-xl"><b>390+</b></h2>
+          <p>Users</p>
+        </div>
+      </div>
+      <div class="flex gap-6">
+        <img src="img/location.png" />
+        <div>
+          <h2 class="text-xl"><b>20+</b></h2>
+          <p>Locations</p>
+        </div>
+      </div>
+      <div class="flex gap-6">
+        <img src="img/Server.png" />
+        <div>
+          <h2 class="text-xl"><b>50+</b></h2>
+          <p>Server</p>
+        </div>
+      </div>
+    </div>
+    <div class="mt-24 flex space-x-48">
+      <img src="img/work.png" />
+      <div class="mt-16 space-y-3">
+        <h2 class="text-4xl">
+          <b>We Provide Many <br />Features You Can Use</b>
+        </h2>
+        <p class="text-gray-600">
+          You can explore the features that we provide with fun <br />
+          and have their own functions each feature.
+        </p>
+        <ul class="space-y-2">
+          <li class="flex gap-2 text-gray-600">
+            <img src="img/checklist.svg" /> Powerfull online protection.
+          </li>
+          <li class="flex gap-2 text-gray-600">
+            <img src="img/checklist.svg" /> Internet without borders.
+          </li>
+          <li class="flex gap-2 text-gray-600">
+            <img src="img/checklist.svg" />Supercharged VPN
+          </li>
+          <li class="flex gap-2 text-gray-600">
+            <img src="img/checklist.svg" /> No specific time limits.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-24 bg-gray-100">
+      <div class="flex flex-col items-center mt-24">
+        <h2 class="text-4xl"><b>Choose Your Plan</b></h2>
+        <p class="text-center">
+          Let's choose the package that is best for you and explore it happily
+          and<br />
+          cheerfully.
+        </p>
+      </div>
+      <div
+        class="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-12 py-8 px-6 sm:px-0 lg:px-6"
+      >
+        <!-- <div
+          class="bg-red-400  h-[760px]"
+        > -->
+        <card
+          class="flex flex-col items-center space-y-5 h-[760px] w-[330px] border-2 border-gray-300 rounded-xl py-4 px-6 lg:px-12 xl:px-20"
+        >
+          <div class="p-4 lg:p-0 mt-6 lg:mt-16"><img src="img/box.png" /></div>
+          <p class="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
+            Free Plan
+          </p>
+          <p></p>
+
+          <ul
+            class="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow"
+          >
+            <li class="relative my-2">
+              <img src="img/jam_check.svg" />Unlimited Bandwitch
+            </li>
+
+            <li class="flex">
+              <img src="img/jam_check.svg" />Encrypted Connection
+            </li>
+            <li class="flex"><img src="img/jam_check.svg" />No Traffic Logs</li>
+            <li class="flex">
+              <img src="img/jam_check.svg" />Works on All Devices
+            </li>
+          </ul>
+
+          <div class="flex flex-col w-full justify-center mb-8 flex-none mt-12">
+            <p class="text-2xl text-black-600 text-center mb-4">Free</p>
+            <button
+              class="ring-1 ring-default text-default px-10 py-2 rounded-3xl hover:bg-default hover:text-white hover:shadow-md"
+            >
+              Select
+            </button>
+          </div>
+        </card>
+        <!-- </div> -->
+        <card
+          class="flex-col items-center space-y-5 h-[760px] w-[330px] border-2 border-gray-300 rounded-xl py-4 px-6 lg:px-12 xl:px-20"
+        >
+          <div class="p-4 lg:p-0 mt-6 lg:mt-16"><img src="img/box.png" /></div>
+          <p class="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
+            Free Plan
+          </p>
+          <p></p>
+
+          <ul
+            class="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow"
+          >
+            <li class="relative my-2">
+              <img src="img/jam_check.svg" />Unlimited Bandwitch
+            </li>
+
+            <li class="flex">
+              <img src="img/jam_check.svg" />Encrypted Connection
+            </li>
+            <li class="flex"><img src="img/jam_check.svg" />No Traffic Logs</li>
+            <li class="flex">
+              <img src="img/jam_check.svg" />Works on All Devices
+            </li>
+          </ul>
+
+          <div class="flex flex-col w-full justify-center mb-8 flex-none mt-12">
+            <p class="text-2xl text-black-600 text-center mb-4">Free</p>
+            <button
+              class="ring-1 ring-default text-default px-10 py-2 rounded-3xl hover:bg-default hover:text-white hover:shadow-md"
+            >
+              Select
+            </button>
+          </div>
+        </card>
+        <!--  -->
+        <card
+          class="flex flex-col items-center space-y-5 h-[760px] w-[330px] border-2 border-gray-300 rounded-xl py-4 px-6 lg:px-12 xl:px-20"
+        >
+          <div class="p-4 lg:p-0 mt-6 lg:mt-16"><img src="img/box.png" /></div>
+          <p class="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
+            Free Plan
+          </p>
+          <p></p>
+
+          <ul
+            class="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow"
+          >
+            <li class="relative my-2">
+              <img src="img/jam_check.svg" />Unlimited Bandwitch
+            </li>
+
+            <li class="flex">
+              <img src="img/jam_check.svg" />Encrypted Connection
+            </li>
+            <li class="flex"><img src="img/jam_check.svg" />No Traffic Logs</li>
+            <li class="flex">
+              <img src="img/jam_check.svg" />Works on All Devices
+            </li>
+          </ul>
+
+          <div class="flex flex-col w-full justify-center mb-8 flex-none mt-12">
+            <p class="text-2xl text-black-600 text-center mb-4">Free</p>
+            <button
+              class="ring-1 ring-default text-default px-10 py-2 rounded-3xl hover:bg-default hover:text-white hover:shadow-md"
+            >
+              Select
+            </button>
+          </div>
+        </card>
+      </div>
+    </div>
+    <div class="flex flex-col items-center mt-24">
+      <h2 class="text-4xl">
+        <b>Huge Global Network <br class="text-center" />of Fast VPN</b>
+      </h2>
+      <p class="text-center">
+        See LaslesVPN everywhere to make it easier for you when you move<br />
+        locations.
+      </p>
+      <div class="mt-12">
+        <img src="img/Huge Global.png" />
+        <img src="img/Sponsored.png" />
+      </div>
+    </div>
+    <div>
+      <div class="flex flex-col items-center mt-24">
+        <h2 class="text-4xl">
+          <b
+            >Trusted by Thousands <br />
+            of Happy Customer</b
+          >
+        </h2>
+        <p class="text-center">
+          These are the stories of our customers who have joined us with
+          great<br />
+          pleasure when using this crazy feature.
+        </p>
+      </div>
+      </div>
+      <div>
+        <card class=" border-2 border-gray-300 rounded-xl hover:border-default p-8 w-[200px] ">
+        <div class="flex flex-row">
+            <img src="img/customer1.png" />
+            <div>
+                <h2>Viezh Robert</h2>
+                <p>Warsaw, Poland</p>
+            </div>
+           
+            <p>4.5</p>
+            <img src="img/star.png">
+        </div>
+        
+        <p>“Wow... I am very happy to use this VPN, <br>it turned out to be more than my expectations and <br>so far there have been no problems.<br> LaslesVPN always the best”.</p>
+      </card>
+      </div>
+      <footer class="mt-36">
+        <div class = "space-y-6">
+            <div class="flex items-center gap-5">
+                <img src="img/logo.png">  
+                <p><b>laslesVPN</b></p>
+            </div>
+         
+         <p>LaslesVPN is a private virtual network that has <br>unique features and has high security.</p> 
+         <div class="bg-red-400 flex items-center gap-14" >
+            <img src="img/fb.png">
+            <img src="img/twitter.png">
+            <img src="img/IG.png">
+         </div>
+         <p> ©2020LaslesVPN </p>
+        </div>
+        <div>
+            <h2><b>Product</b></h2>
+            <a href="#">Download</a>
+            <a href="#">Pricing</a>
+            <a href="#">Locations</a>
+            <a href="#">Server</a>
+            <a href="#">Countries</a>
+            <a href="#">Blog</a>
+
+        </div>
+      </footer>
+    
   </body>
 </html>
